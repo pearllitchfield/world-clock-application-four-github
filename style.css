@@ -16,12 +16,12 @@ h2 {
 }
 
 select {
-  background-color: rgb(151, 90, 151);
+  background-color: rgb(184, 132, 184);
   color: white;
   display: block;
   font-size: 18px;
   width: 100%;
-  border-color: white;
+  border: none;
   border-radius: 6px;
   padding: 10px;
 }
@@ -66,10 +66,11 @@ footer {
   opacity: 0.9;
   color: rgb(20, 2, 38);
   text-align: center;
-  font-size: 14px;
+  margin-top: 80px;
+  font-size: 12px;
 }
 
 a {
-  color: rgb(138, 50, 220);
+  color: rgb(125, 74, 125);
   font-weight: bolder;
 }
