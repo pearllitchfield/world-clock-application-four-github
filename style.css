@@ -3,9 +3,68 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 26px;
+}
+
+select {
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
 footer {
   opacity: 0.7;
   color: rgb(72, 8, 133);
   text-align: center;
   font-size: 16px;
+}
+
+a {
+  color: rgb(46, 14, 76);
 }
